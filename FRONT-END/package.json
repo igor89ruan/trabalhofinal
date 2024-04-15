@@ -1,0 +1,35 @@
+{
+  "name": "front-end",
+  "version": "1.0.0",
+  "description": "Trabalho Final",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/igor89ruan/trabalhofinal.git"
+  },
+  "keywords": [
+    "trabalho",
+    "final",
+    "css",
+    "front",
+    "end"
+  ],
+  "author": "Willian e Igor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/igor89ruan/trabalhofinal.git"
+  },
+  "homepage": "https://github.com/igor89ruan/trabalhofinal.git",
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "mysql2": "^3.9.4",
+    "path": "^0.12.7",
+    "process": "^0.11.10"
+  }
+}

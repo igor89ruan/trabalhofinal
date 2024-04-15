@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/styleVisualizarAgendamentos.css">
+    <title>ECOGEST - VISUALIZAR AGENDAMENTOS</title>
+</head>
+<body>
+       <!-- INICIO DO ESTILO DA BARRA DE NAVEGACAO 13/04/2024 -->
+       <nav>
+        <h1 id="logo">ECOGEST</h1>
+        <p id="slogan">Inovavando o Presente, Preservando o futuro</p>
+
+        <div class="agendar">
+            <div class="org">
+                <img id="icones" src="svg/agendar.png" alt="">
+                <h1>Agendar</h1>
+                <img id="svg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABHElEQVR4nO3SMSiFYRSA4QcRiZSUUpSyKIvBYDKYLBYWk81iNNnvZLTYTBYWi8lgMhgsyqIUpZSUSES4Ur+SIpf/3vvdnKfOeOq8fR8hhBBCCCGEEHJXQDHxKfw0ZimBY4tfzHIpr1KHlQSOLn6aVdSX+sXeFtYSOL6YzQYa/NLb4noCEZto9EdN2KpixDaa5aQFO1WI2EWrnLVjr4IRe2hTJh3Yr0DEATqVWRcOyxhxhG4V0oPjMkScok+F9eIkx4gz9KuSAZznEHGBQVU2hMs/RFxhWCJGcPOLiOtsNymjuC0h4g5jEjWO+x9EPGBC4ibx+E3EE6bViKns4M8Rz5hRY2azw98jXjCnRs1/CFlQ4xazCSGEEEL4b14BnfLMQvEtlakAAAAASUVORK5CYII=">
+            </div>
+            <div class="lista">
+                <ul style="list-style: none;">
+                    <a href="agendarServicos.html"><li>Agendar Servicos</li></a> 
+                    <a href="visualizarAgendamentos.html"><li>Visualizar Agendamentos</li></a> 
+                </ul>
+            </div>
+        </div>
+
+        <div class="cadastro">
+            <div class="org">
+                <img id="icones" src="svg/cadastro.png" alt="">
+                <h1>Cadastro</h1>
+                <img id="svg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABHElEQVR4nO3SMSiFYRSA4QcRiZSUUpSyKIvBYDKYLBYWk81iNNnvZLTYTBYWi8lgMhgsyqIUpZSUSES4Ur+SIpf/3vvdnKfOeOq8fR8hhBBCCCGEEHJXQDHxKfw0ZimBY4tfzHIpr1KHlQSOLn6aVdSX+sXeFtYSOL6YzQYa/NLb4noCEZto9EdN2KpixDaa5aQFO1WI2EWrnLVjr4IRe2hTJh3Yr0DEATqVWRcOyxhxhG4V0oPjMkScok+F9eIkx4gz9KuSAZznEHGBQVU2hMs/RFxhWCJGcPOLiOtsNymjuC0h4g5jEjWO+x9EPGBC4ibx+E3EE6bViKns4M8Rz5hRY2azw98jXjCnRs1/CFlQ4xazCSGEEEL4b14BnfLMQvEtlakAAAAASUVORK5CYII=">
+            </div>
+            <div class="lista">
+                <ul style="list-style: none;">
+                    <a href="cadastroBeneficiario.html"><li>Cadastro de Beneficiário</li></a>
+                    <a href="cadastroColaboradores.html"><li>Cadastro de Colaboradores</li></a>
+                </ul>
+        </div>
+
+        <div class="registro">
+            <div class="org">
+                <img id="icones" src="svg/registro.png" alt="">
+                <h1>Registro</h1>
+                <img id="svg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABHElEQVR4nO3SMSiFYRSA4QcRiZSUUpSyKIvBYDKYLBYWk81iNNnvZLTYTBYWi8lgMhgsyqIUpZSUSES4Ur+SIpf/3vvdnKfOeOq8fR8hhBBCCCGEEHJXQDHxKfw0ZimBY4tfzHIpr1KHlQSOLn6aVdSX+sXeFtYSOL6YzQYa/NLb4noCEZto9EdN2KpixDaa5aQFO1WI2EWrnLVjr4IRe2hTJh3Yr0DEATqVWRcOyxhxhG4V0oPjMkScok+F9eIkx4gz9KuSAZznEHGBQVU2hMs/RFxhWCJGcPOLiOtsNymjuC0h4g5jEjWO+x9EPGBC4ibx+E3EE6bViKns4M8Rz5hRY2azw98jXjCnRs1/CFlQ4xazCSGEEEL4b14BnfLMQvEtlakAAAAASUVORK5CYII=">
+            </div>
+            <div class="lista">
+                <ul style="list-style: none;">
+                    <a href="registroInformacoes.html"><li>Registro de Informações <br> de Serviços</li></a>
+                    <li>Abertura e Fechamento de <br> Serviços e Autorizações</li>
+                </ul>
+        </div>
+
+        <div class="analise">
+            <div class="org">
+                <img id="icones" src="svg/analise.png" alt="">
+                <h1>Análise <br> Integrada</h1>
+                <img id="svg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABHElEQVR4nO3SMSiFYRSA4QcRiZSUUpSyKIvBYDKYLBYWk81iNNnvZLTYTBYWi8lgMhgsyqIUpZSUSES4Ur+SIpf/3vvdnKfOeOq8fR8hhBBCCCGEEHJXQDHxKfw0ZimBY4tfzHIpr1KHlQSOLn6aVdSX+sXeFtYSOL6YzQYa/NLb4noCEZto9EdN2KpixDaa5aQFO1WI2EWrnLVjr4IRe2hTJh3Yr0DEATqVWRcOyxhxhG4V0oPjMkScok+F9eIkx4gz9KuSAZznEHGBQVU2hMs/RFxhWCJGcPOLiOtsNymjuC0h4g5jEjWO+x9EPGBC4ibx+E3EE6bViKns4M8Rz5hRY2azw98jXjCnRs1/CFlQ4xazCSGEEEL4b14BnfLMQvEtlakAAAAASUVORK5CYII=">
+            </div>
+            <div class="lista">
+                <ul style="list-style: none;">
+                    <li>Relatório de Serviços</li>
+                    <li>Estatísticas</li>
+                </ul>
+        </div>
+
+        <div class="config">
+            <div class="org">
+                <img src="svg/config.png" alt="">
+                <h1>Configurações</h1>
+            </div>
+
+            <div class="org1">
+                <img src="svg/ajuda.png" alt="">
+                <h1>Ajuda</h1>
+            </div>
+
+            <h1 id="sair">SAIR</h1>
+        </div>
+    </nav>
+
+    <!-- FIM DO ESTILO DA BARRA DE NAVEGACAO 13/04/2024 -->
+    <div class="tela">
+
+        <h1 id="visualizar">Visualizar Agendamentos</h1>
+
+        <div class="tela1">
+            <input type="text">
+            <button id="Verde">Data</button>
+        </div>
+
+        <div class="tela2">
+            <div class="tela22">
+                <input type="text">
+                <button>CPF</button>
+            </div>
+
+            <div class="radio">
+                <div>
+                    <div class="dados">
+                        <input type="radio" name="" id="">
+                        <label for="">Bairro</label>
+                    </div>
+
+                    <div class="dados">
+                        <input type="radio" name="" id="">
+                        <label for="">Arquivado</label>
+                    </div>
+                </div>
+                <div>
+                    <div class="dados">
+                        <input type="radio" name="" id="">
+                        <label for="">Pendente</label>
+                    </div>
+
+                    <div class="dados">
+                        <input type="radio" name="" id="radioverde">
+                        <label for="">Realizado</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="tela3">
+                <table>
+                    <tr id="cabecalho">
+                        <th>Nome</th>
+                        <th>CPF</th>
+                        <th>Contato</th>
+                        <th>Endereço</th>
+                        <th>Bairro</th>
+                        <th>Numero</th>
+                        <th>Data</th>
+                    </tr>
+                    <tr id="linhas">
+                        <td>José Agusto Felipe</td>
+                        <td>432.785.426-85</td>
+                        <td>(18) 99899-9874</td>
+                        <td>Estrada Salomão Sanches</td>
+                        <td>Ouro Verde</td>
+                        <td>Q25</td>
+                        <td>20/03/2024</td>
+                    </tr>
+                    <tr id="linhas">
+                        <td>Ana Clara Souza</td>
+                        <td>123.456.789-00</td>
+                        <td>(18) 99123-4567</td>
+                        <td>Rua das Palmeiras</td>
+                        <td>Jardim Tropical</td>
+                        <td>101</td>
+                        <td>27/03/2024</td>
+                    </tr>
+                    <tr id="linhas">
+                        <td>Carlos Eduardo Lima</td>
+                        <td>987.654.321-00</td>
+                        <td>(18) 99234-5678</td>
+                        <td>Estrada do Sol</td>
+                        <td>Vila Nova</td>
+                        <td>202</td>
+                        <td>03/04/2024</td>
+                    </tr>
+                    <tr id="linhas1">
+                        <td>Juliana Martins Rocha</td>
+                        <td>456.123.789-00</td>
+                        <td>(18) 99345-6789</td>
+                        <td>Avenidas das Flores</td>
+                        <td>Parque das Árvores</td>
+                        <td>303</td>
+                        <td>08/07/2024</td>
+                    </tr>
+                    
+                </table>
+        </div>
+</body>
+</html>

@@ -1,0 +1,249 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    display: flex;
+    background-color: #2b9348;
+}
+
+/*INICIO DO ESTILO DA BARRA DE NAVEGAÇÃO 13/04/2024*/
+
+nav{
+    width: 300px;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*inicio titulo e subtitulo*/
+#logo{
+    font-size: 40px;
+    font: italic bold 40px/1.6 serif;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#slogan{
+    font-size: 20px;
+    text-align: center;
+    margin-top: -50px;
+}
+/*fim titulo e subtitulo*/
+
+
+.agendar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cadastro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.registro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.analise{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.org{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.org1{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+
+#svg{
+    width: 35px;
+    height: 35px;
+    margin-left: 50px;
+}
+
+#icones{
+    width: 35px;
+    height: 35px;
+}
+
+.agendar h1{
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.cadastro h1{
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.registro h1{
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.analise h1{
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.agendar li{
+    margin-top: 10px;
+}
+
+.cadastro li{
+    margin-top: 10px;
+}
+
+.registro li{
+    margin-top: 10px;
+}
+
+.analise li{
+    margin-top: 10px;
+}
+
+
+.config{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.config h1{
+    margin: 0;
+    padding: 0;
+}
+
+#sair{
+    font-size: 30px;
+    text-align: center;
+    font: bold 40px/1.6 serif;
+}
+/*FIM DO ESTILO DA BARRA DE NAVEGAÇÃO 13/04/2024*/
+
+.tela{
+    width: 1450px;
+    height: 900px;
+    background-color: white;
+    margin-left: 50px;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 35px;
+}
+.tela1 input, .tela22 input{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.tela1 button, .tela22 button{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.tela1{
+    margin-top: 80px;
+}
+.tela2, .radio{
+    display: flex;
+}
+
+.dados{
+    margin-right: 25px;
+    font-size: 22px;
+    margin-left: 25px;
+}
+
+.dados input{
+    width: 20px;
+    height: 20px;
+}
+
+.tela3{
+    width: 1350px;
+    height: 500px;
+    margin-left: 50px;
+    margin-top: 90px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+#cabecalho{
+    background-color: #2b9348;
+   font-size: 20px;
+}
+
+#cabecalho th{
+    padding: 10px;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    width: 180px;
+    border-radius: 15px 0px 10px 0px;
+}
+
+#linhas, #linhas1{
+    font-size: 18px;
+}
+
+#linhas td{
+    padding: 10px;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    width: 180px;
+}
+
+#linhas1 td{
+    padding: 10px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    width: 180px;
+}
+
+#Verde{
+    background-color: #2b9348;
+    border: 2px solid black;
+}
+
+#radioverde{
+    background-color: #2b9348;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li:hover{
+    cursor: pointer;
+    transform: scale(1.10);
+}

@@ -1,0 +1,364 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    display: flex;
+    background-color: #2b9348;
+}
+/*INICIO DO ESTILO DA BARRA DE NAVEGAÇÃO 13/04/2024*/
+
+nav{
+    width: 300px;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*inicio titulo e subtitulo*/
+#logo{
+    font-size: 40px;
+    font: italic bold 40px/1.6 serif;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#slogan{
+    font-size: 20px;
+    text-align: center;
+    margin-top: -50px;
+}
+/*fim titulo e subtitulo*/
+
+
+.agendar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cadastro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.registro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.analise{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.org{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.org1{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+
+#svg{
+    width: 35px;
+    height: 35px;
+    margin-left: 50px;
+}
+
+#icones{
+    width: 35px;
+    height: 35px;
+}
+
+.agendar h1{
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.cadastro h1{
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.registro h1{
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.analise h1{
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.agendar li{
+    margin-top: 10px;
+    color: black;
+    
+}
+
+.agendar li:hover{
+    cursor: pointer;
+    transform: scale(1.10);
+}
+
+.cadastro li{
+    margin-top: 10px;
+    color: black;
+}
+
+.cadastro li:hover{
+    cursor: pointer;
+    transform: scale(1.10);
+}
+
+.registro li{
+    margin-top: 10px;
+    color: black;
+}
+
+.registro li:hover{
+    cursor: pointer;
+    transform: scale(1.10);
+}
+
+.analise li{
+    margin-top: 10px;
+    color: black;
+}
+
+.analise li:hover{
+    cursor: pointer;
+    transform: scale(1.10);
+}
+
+
+.config{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.config h1{
+    margin: 0;
+    padding: 0;
+}
+
+#sair{
+    font-size: 30px;
+    text-align: center;
+    font: bold 40px/1.6 serif;
+}
+/*FIM DO ESTILO DA BARRA DE NAVEGAÇÃO 13/04/2024*/
+
+/* INICIO DO ESTILO DO FORM 13/04/2024 */
+.todo{
+    background-color: white;
+    width: 1490px;
+    height: 930px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    border-radius: 30px;
+}
+.campo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#titulo{
+    font-size: 40px;
+    text-shadow: 5px 5px 80px #000000;
+}
+
+#sub{
+    font-size: 25px;
+}
+
+.etapa1{
+    display: flex;
+    text-align: left;
+}
+
+.etapa2{
+    display: flex;
+    margin-top: 30px;
+    
+}
+
+.org1{
+    flex-direction: column;
+}
+
+input{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 20px;
+}
+
+.org1 label{
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    text-align: left;
+}
+
+.botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;    
+}
+
+#botao1{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: green;
+    color: white;
+    margin-right: 25px;
+    box-shadow: 1px 1px 5px #000000;
+}
+
+
+#botao2{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: yellow;
+    color: black;
+    margin-right: 25px;
+    margin-left: 25px;
+    box-shadow: 1px 1px 5px #000000;
+}
+
+
+#botao3{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    margin-left: 25px;
+    box-shadow: 1px 1px 5px #000000;
+}
+
+button:active {
+    transform: scale(0.95); /* Reduz ligeiramente o tamanho do botão */
+    background-color: #ccc; /* Muda a cor de fundo para indicar que está ativo */
+}
+
+/* FIM DO ESTILO DO FORM 13/04/2024 */
+.linha{
+    margin-top: 30px;
+    margin-left: 40px;
+    width: 1400px;
+    height: 3px;
+    background-color: black;
+}
+
+/* INICIO DO ESTILO DA TABELA 13/04/2024 */
+
+.tabelatodo h1{
+    margin-left: 135px;
+    font-size: 25px;
+}
+
+.container{
+    margin-left: 135px;
+    width: 1250px;
+    height: 400px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border: 2px solid black;
+}
+
+#tituloC{
+    font-size: 20px;
+    border: 1px solid black;
+    text-align: center;
+    width: 154px;
+    background-color: #2b9348;
+    border-radius: 15px;
+}
+
+#linhasC{
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+
+#linhasC:hover{
+    background-color: grey;
+    border-radius: 15px;
+    color: white;
+}
+
+#linhasCB{
+    text-align: center;
+}
+
+#linhasCB button{
+    width: 90px;
+    height: 30px;
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow: #2b9348 1px 1px 5px;
+    background-color: blue;
+    color: white;
+}
+
+#linhasCB button:hover {
+    transform: scale(0.95); /* Reduz ligeiramente o tamanho do botão */
+    background-color: black;
+    color: white; /* Muda a cor de fundo para indicar que está ativo */
+}
+
+#mensagem{
+    position: absolute;
+    margin-left: 33%;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    width: 750px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+a {
+    text-decoration: none;
+}
